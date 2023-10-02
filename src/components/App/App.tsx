@@ -9,6 +9,9 @@ export type AppProps = {
 export const App: React.FC<AppProps> = ({ className }) => {
   return (
     <div className={clsx(styles.App, className)}>
+      <h2 className={styles.heading}>
+        Select a number to highlight its multiples.
+      </h2>
       <NumbersContainer />
     </div>
   );

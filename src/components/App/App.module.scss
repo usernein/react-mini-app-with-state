@@ -1,3 +1,7 @@
 .App {
   @apply flex h-full w-full flex-col flex-wrap items-center justify-start;
+
+  .heading {
+    @apply font-bold text-lg text-hint pt-5;
+  }
 }
