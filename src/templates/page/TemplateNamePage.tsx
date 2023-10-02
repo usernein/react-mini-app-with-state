@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./TemplateName.module.scss";
+import styles from "./TemplateNamePage.module.scss";
 import clsx from "clsx";
 
 export type TemplateNamePageProps = {
