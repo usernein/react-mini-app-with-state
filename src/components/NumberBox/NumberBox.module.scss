@@ -1,0 +1,16 @@
+.NumberBox {
+  @apply flex aspect-square w-12 cursor-pointer select-none items-center justify-center rounded-lg text-center text-xl duration-150 bg-secondaryBg;
+
+  &:active {
+    @apply scale-90;
+  }
+
+  &.isSelected {
+    @apply bg-button text-buttonText;
+  }
+
+  &.isMultiple {
+    @apply ring-1 ring-button;
+  }
+}
+

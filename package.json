@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.199",
     "@vkruglikov/react-telegram-web-app": "^2.1.4",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rippleui": "^1.12.1"
+    "rippleui": "^1.12.1",
+    "scheduler": "^0.23.0",
+    "ts-deepmerge": "^6.2.0",
+    "use-context-selector": "^1.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
